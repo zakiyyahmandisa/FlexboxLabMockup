@@ -7,7 +7,7 @@
       "pht pht pht pht pht pht pht pht"
       "sd sd main main main main main main"
       border: 2px solid red;
-  }
+  
 font-family: Pragati Narrow;
 font-style: normal;
 font-weight: bold;
@@ -20,21 +20,52 @@ text-align: justify;
     border: 1px solid red;
     background: #C4C4C4;
     }
-  .header{
+.header{
     grid-area:hd;
   }
 .photo{
   grid-area:pht;
 }
-  .footer{
+.footer{
     grid-area: ft;  
   }
-  .sidebar{
+.sidebar{
     grid-area: sd;
   }
   .content{
     grid-area: main;
   }
+.nav{
+ display: flex; 
+ align-items:center;
+}
+.navlinks{
+  display:flex;
+  align-items:center;
+}
+.navlink{
+   list-style-type:none;
+   padding: 0 10px;
+}
+.photo-box{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.main-container{
+  display:flex;
+}
+.footer-box{
+  display:none;
+}
+@media(max-width:600px){
+      .main-container{
+            display:flex;
+            flex-direction:column;
+      }
+      .footer-box{
+            display:block;
+      }
 
 
 }
