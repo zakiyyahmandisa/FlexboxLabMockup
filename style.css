@@ -47,5 +47,12 @@ p.line-spacing{
     display:block;
     background: #C4C4C4;
   }
-  
+  .fnavlinks{
+    align-items:center;
+    justify-content:center;
+  }
+  .fnavlinks2{
+    align-items:center;
+    justify-content:center;
+  }
 }
