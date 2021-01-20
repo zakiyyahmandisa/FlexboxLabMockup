@@ -11,6 +11,9 @@ text-align: justify;
     background: #C4C4C4;
     padding: 10px 0;
     }
+p.line-spacing{
+    line-height:1.8;
+}
   
 .nav{
   display:flex;
