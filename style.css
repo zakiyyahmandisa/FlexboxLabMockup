@@ -9,6 +9,8 @@ text-align: justify;
 
 .photo-box{
     background: #C4C4C4;
+    width:1152px;
+    height:266px;
     padding: 10px 0;
     }
 p.line-spacing{
