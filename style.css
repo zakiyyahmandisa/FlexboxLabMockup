@@ -1,4 +1,13 @@
-.body{
+.container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "pht pht pht pht pht pht pht pht"
+      "sd sd main main main main main main"
+      border: 2px solid red;
+    
 font-family: Pragati Narrow;
 font-style: normal;
 font-weight: bold;
@@ -7,23 +16,23 @@ line-height: 41px;
 text-align: justify;
 }
 
-.box{
+.content-box{
     border: 1px solid red;
     background: #C4C4C4;
     }
-.header{
+.header-box{
     grid-area:hd;
   }
-.photo{
+.photo-box{
   grid-area:pht;
 }
-.footer{
+.footer-box{
     grid-area: ft;  
   }
-.sidebar{
+.sidebar-box{
     grid-area: sd;
   }
-  .content{
+  .content-box{
     grid-area: main;
   }
 .nav{
